@@ -1,20 +1,42 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello GuestController!{% endblock %}
+{% block title %}Football{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+    <div class="container mx-auto p-4">
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8 items-center">
+            <div class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+                <div class="p-4 md:p-6">
+                    <h5 class="mb-2 text-lg md:text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+                        Special title treatment
+                    </h5>
+                    <p class="mb-4 text-sm md:text-base text-neutral-600 dark:text-neutral-200">
+                        With supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <button type="button" href="#" class="inline-block rounded bg-primary px-4 md:px-6 pb-1 md:pb-2 pt-1.5 md:pt-2 text-xs md:text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+                            data-te-ripple-init data-te-ripple-color="light">
+                        Go somewhere
+                    </button>
+                </div>
+            </div>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>C:/xampp/htdocs/PHP-Oefen-Football/src/Controller/GuestController.php</code></li>
-        <li>Your template at <code>C:/xampp/htdocs/PHP-Oefen-Football/templates/guest/index.html.twig</code></li>
-    </ul>
-</div>
+            <div class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+                <div class="p-4 md:p-6">
+                    <h5 class="mb-2 text-lg md:text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+                        Special title treatment
+                    </h5>
+                    <p class="mb-4 text-sm md:text-base text-neutral-600 dark:text-neutral-200">
+                        With supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <button type="button" href="#" class="inline-block rounded bg-primary px-4 md:px-6 pb-1 md:pb-2 pt-1.5 md:pt-2 text-xs md:text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+                            data-te-ripple-init data-te-ripple-color="light">
+                        Go somewhere
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 {% endblock %}
